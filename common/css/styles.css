@@ -1,0 +1,278 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #291a4a;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.col-md-12,
+.col-md-11,
+.col-md-10,
+.col-md-9,
+.col-md-8,
+.col-md-7,
+.col-md-6,
+.col-md-5 {
+  padding: 0 0;
+}
+
+.block {
+  height: 500px;
+}
+
+.col-md-6 {
+  padding: 0px !important;
+}
+
+.header .right-side {
+  margin: 0 auto;
+  color: white;
+}
+
+.header .right-side h1 {
+  font-size: 2.6rem;
+  text-align: left;
+  color: white;
+  margin-bottom: 1.2rem;
+}
+
+.header .right-side h6 {
+  font-size: 0.9rem;
+}
+
+.header .right-side h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.header-info {
+  padding: 20% 23%;
+}
+
+.header-info p {
+  margin-bottom: 1rem;
+}
+
+.view-more {
+  background: royalblue;
+  color: white;
+  border-radius: 0px;
+}
+
+.view-more:hover {
+  color: white;
+}
+
+/*
+PERSONAL BLOCK
+*/
+
+.personal .left-side {
+  background: #cfd1d1;
+}
+
+.personal .right-side {
+  background: #e9e9e9;
+}
+
+#personal-info {
+  padding: 12% 21%;
+}
+
+.cv-table td {
+  width: 50%;
+  padding: 15px 0px;
+}
+
+.personal #quotes {
+  padding: 20% 20% 21% 15%;
+}
+
+/*
+Portfolio Block
+*/
+
+#portfolio-block {
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+/*
+Skills
+*/
+
+.skills .row {
+  background-color: #e9e9e9;
+}
+
+.skills .col-md-5 {
+  padding: 0 20px;
+}
+
+.skill-left-side {
+  padding: 20% 0;
+  padding-left: 39%;
+}
+
+.what-do-best {
+  padding: 15%;
+  background-color: #9396a7;
+  height: 500px;
+}
+
+.what-do-best h1 {
+  color: white;
+}
+
+.skill-info-right-side {
+  padding: 21% 0;
+  padding-right: 40%;
+}
+
+.skill p {
+  padding-right: 10%;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.skills .progress {
+  height: 0.7rem;
+  border: 1px solid lightgrey;
+  font-size: 8px;
+}
+
+.skills h5 {
+  font-weight: 600;
+}
+
+/*
+Career & Experience
+*/
+
+.experience-left-side {
+  padding: 20% 0;
+  padding-left: 39%;
+}
+
+.career-experience {
+  padding: 15%;
+  background-color: #eeeeee;
+  height: 300px;
+}
+
+.career-experience h1 {
+  color: #291a4a;
+}
+
+.experience-right-side {
+  padding: 21% 0;
+  padding-right: 40%;
+}
+
+.vertical-line {
+  border-left: 3px solid royalblue;
+  height: 150px;
+}
+
+.experience .col-md-10 {
+  padding: 3% 0;
+}
+
+/*
+Educations
+*/
+
+.educations {
+  padding: 2% 15% 7% 15%;
+}
+
+.education .col-md-10 {
+  padding: 3% 0;
+}
+
+.education h5 {
+  font-size: 1rem;
+}
+
+/*
+About
+*/
+
+.about .row {
+  background: #e9e9e9;
+}
+
+.about-info {
+  padding: 15% 22% 15% 33%;
+}
+
+.about-info .col-md-2 hr {
+  background: royalblue;
+  height: 3px;
+  width: 60%;
+}
+
+.about-info-2 {
+  padding: 15% 0;
+}
+
+.about-info-2 p {
+  padding-right: 25%;
+  text-align: justify;
+  font-size: 14px;
+  margin-top: 40px;
+  line-height: 1.6rem;
+}
+
+/*
+Footer
+*/
+
+.footer .row {
+  background: royalblue;
+  padding: 10% 15% 0% 15%;
+}
+
+.footer h4 {
+  margin-bottom: 40px;
+}
+
+.footer p {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.footer .col-md-12 {
+  text-align: center;
+}
+
+.footer-logo {
+  width: 20%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.write-me {
+  background: #291a4a;
+  color: white;
+  border-radius: 0px;
+  padding: 10px 30px;
+}
+
+.write-me:hover {
+  color: white;
+}
+
+.copyright,
+.social-media {
+  margin-top: 115px;
+  margin-bottom: 15px;
+}
+
+.copyright p {
+  margin-bottom: 0;
+}
