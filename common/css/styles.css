@@ -102,6 +102,9 @@ Portfolio Block
 /*
 Skills
 */
+.skill-left-side-2 {
+  display: none;
+}
 
 .skills .row {
   background-color: #e9e9e9;
@@ -151,6 +154,9 @@ Skills
 /*
 Career & Experience
 */
+.experience-left-side-2 {
+  display: none;
+}
 
 .experience-left-side {
   padding: 20% 0;
@@ -275,4 +281,962 @@ Footer
 
 .copyright p {
   margin-bottom: 0;
+}
+
+.fab {
+  color: white;
+}
+
+.fa-linkedin-in:hover,
+.fa-github:hover,
+.fa-twitter:hover,
+.fa-facebook-f:hover {
+  color: #291a4a;
+}
+
+/*
+Responsive
+*/
+
+@media only screen and (min-width: 1301px) and (max-width: 1506px) {
+  .header-info {
+    padding: 10% 23%;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+  .header-info {
+    padding: 7% 23%;
+  }
+
+  #portfolio-block {
+    padding-top: 1%;
+  }
+
+  .skill-info-right-side {
+    padding: 17% 35% 15% 0;
+  }
+
+  .mb-5 {
+    margin-bottom: 2rem !important;
+  }
+
+  .skill p {
+    line-height: 1.8rem;
+  }
+
+  .experience h3 {
+    font-size: 1.4rem;
+  }
+
+  .vertical-line {
+    height: 140px;
+  }
+
+  .education h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1099px) {
+  .header-info {
+    padding: 7% 23%;
+  }
+
+  .header .right-side h1 {
+    font-size: 2rem !important;
+  }
+
+  .personal #quotes {
+    padding: 15% 20% 11% 15%;
+  }
+
+  #personal-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .cv-table span {
+    font-size: 15px;
+  }
+
+  .cv-table td {
+    width: 50%;
+    padding: 9px 0px;
+  }
+
+  #quotes h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #portfolio-block {
+    padding-top: 1%;
+  }
+
+  .skill-info-right-side {
+    padding: 17% 35% 15% 0;
+  }
+
+  .mb-5 {
+    margin-bottom: 2rem !important;
+  }
+
+  .skill p {
+    line-height: 1.8rem;
+  }
+
+  .experience h3 {
+    font-size: 1.4rem;
+  }
+
+  .vertical-line {
+    height: 140px;
+  }
+
+  .education h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+  .header-info {
+    padding: 5% 10%;
+  }
+
+  .header .right-side h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .header .right-side h6 {
+    font-size: 0.7rem !important;
+  }
+
+  .header .right-side h4 {
+    font-size: 1rem !important;
+  }
+
+  .header .right-side p {
+    font-size: 1rem !important;
+  }
+
+  .personal #quotes {
+    padding: 15% 20% 11% 15%;
+  }
+
+  #personal-info {
+    padding: 10% 15%;
+  }
+
+  #personal-info h1 {
+    font-size: 1.2rem;
+  }
+
+  .personal #quotes {
+    padding: 22% 20% 9% 15%;
+  }
+
+  .cv-table span {
+    font-size: 12px;
+  }
+
+  .cv-table td {
+    width: 50%;
+    padding: 9px 0px;
+  }
+
+  #quotes h1 {
+    font-size: 1.2rem !important;
+  }
+
+  #portfolio-block {
+    padding-top: 1%;
+  }
+
+  #portfolio-block h1 {
+    font-size: 1.8rem;
+    margin: 20px 0 !important;
+  }
+
+  .skill-info-right-side {
+    padding: 17% 35% 15% 0;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .mt-4 {
+    margin-top: 0.5rem !important;
+  }
+
+  .what-do-best h1 {
+    font-size: 1.8rem;
+  }
+
+  .what-do-best {
+    height: 380px;
+  }
+
+  .skill p {
+    line-height: 1.5rem !important;
+  }
+  .skill p {
+    padding-right: 7%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+
+  .career-experience h1 {
+    font-size: 1.6rem;
+  }
+
+  .career-experience {
+    height: 250px;
+  }
+
+  .experience h3 {
+    font-size: 1rem;
+  }
+
+  .education h3 {
+    font-size: 1rem;
+  }
+
+  .education h5 {
+    font-size: 0.8rem;
+  }
+
+  .education .vertical-line {
+    height: 120px;
+  }
+
+  .vertical-line {
+    height: 140px;
+  }
+
+  .experience .vertical-line {
+    height: 109px;
+  }
+
+  .about-info {
+    padding: 15% 13% 15% 33%;
+  }
+
+  .about-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-info h4 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-info .col-md-2 hr {
+    margin-top: 0.5rem;
+    width: 70%;
+    height: 2px;
+  }
+
+  .about-info-2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .copyright p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .copyright,
+  .social-media {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .footer .row {
+    padding: 5% 15% 0% 15%;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .footer h4 {
+    margin-bottom: 20px;
+  }
+
+  .footer p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  .header-info {
+    padding: 5% 10%;
+    text-align: center;
+  }
+
+  .header .right-side h1 {
+    font-size: 1.8rem !important;
+    text-align: center;
+  }
+
+  .header .right-side h1 br {
+    display: none;
+  }
+
+  .header .right-side h6 {
+    font-size: 0.8rem !important;
+    text-align: center;
+  }
+
+  .header .right-side h4 {
+    font-size: 1.2rem !important;
+    text-align: center;
+  }
+
+  .header .right-side p {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
+  .personal #quotes {
+    padding: 15% 20% 11% 15%;
+  }
+
+  #personal-info {
+    padding: 5% 15%;
+    text-align: center;
+  }
+
+  #personal-info h1 {
+    font-size: 1.2rem;
+  }
+
+  .personal #quotes {
+    padding: 22% 20% 9% 15%;
+  }
+
+  .cv-table span {
+    font-size: 12px;
+  }
+
+  .cv-table td {
+    width: 50%;
+    padding: 5px 0px;
+  }
+
+  .for-mobile {
+    margin: 0 auto;
+  }
+
+  .for-mobile td {
+    width: 32%;
+    padding: 5px 20px;
+  }
+
+  .personal #quotes {
+    padding: 8% 20% 8% 15%;
+  }
+
+  #quotes h1 {
+    font-size: 1.2rem !important;
+  }
+
+  #portfolio-block {
+    padding-top: 1%;
+  }
+
+  #portfolio-block h1 {
+    font-size: 1.8rem;
+    margin: 20px 0 !important;
+  }
+
+  .skill-info-right-side {
+    padding: 17% 35% 15% 0;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .mt-4 {
+    margin-top: 0.5rem !important;
+  }
+
+  .what-do-best h1 {
+    font-size: 1.8rem;
+  }
+
+  .what-do-best {
+    padding: 11%;
+    height: 0;
+    display: table-cell;
+  }
+
+  .skill p {
+    line-height: 1.5rem !important;
+  }
+  .skill p {
+    padding-right: 7%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+
+  .skill-left-side {
+    display: none;
+  }
+
+  .skill-left-side-2 {
+    padding: 10% 0 10% 0;
+    padding-left: 0%;
+    display: flex;
+  }
+
+  .skill-info-right-side {
+    padding: 5% 10% 10% 10%;
+  }
+
+  .what-do-best-2 h1 {
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .what-do-best-2 {
+    padding: 8% 8%;
+    background-color: #9396a7;
+    display: table-cell;
+  }
+
+  .career-experience h1 {
+    font-size: 1.6rem;
+  }
+
+  .career-experience {
+    height: 250px;
+  }
+
+  .experience h3 {
+    font-size: 1rem;
+  }
+
+  .education h3 {
+    font-size: 1rem;
+  }
+
+  .education h5 {
+    font-size: 0.8rem;
+  }
+
+  .education .vertical-line {
+    height: 120px;
+  }
+
+  .vertical-line {
+    height: 140px;
+  }
+
+  .experience-left-side {
+    display: none;
+  }
+
+  .experience-left-side-2 {
+    display: flex;
+  }
+
+  .experience-left-side-2 {
+    padding: 10% 5% 5% 5%;
+  }
+
+  .career-experience-2 {
+    padding: 10% 4% 10% 12%;
+    background-color: #eeeeee;
+  }
+
+  .career-experience-2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .experience-right-side {
+    padding: 0% 10% 4% 10%;
+    text-align: center;
+  }
+
+  .experience .vertical-line {
+    height: 2px;
+  }
+
+  .experience .vertical-line {
+    border-left: 150px solid royalblue;
+    display: inline-block;
+  }
+
+  .experience p {
+    margin-bottom: 0px;
+  }
+
+  .float-right {
+    float: none !important;
+  }
+
+  .education .vertical-line {
+    height: 2px;
+  }
+
+  .education .vertical-line {
+    border-left: 150px solid royalblue;
+    display: inline-block;
+  }
+
+  .education .col-md-10 {
+    padding: 3%;
+    text-align: center;
+  }
+
+  .education .col-md-2 {
+    text-align: center;
+  }
+
+  .about-info {
+    padding: 8% 10%;
+    text-align: center;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.1rem !important;
+  }
+
+  .about-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-info h4 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-info .col-md-2 hr {
+    margin-top: 0.5rem;
+    width: 10%;
+    margin-bottom: 0;
+    height: 2px;
+  }
+
+  .about-info-2 {
+    padding: 0% 10% 5% 10%;
+    text-align: center;
+  }
+
+  .about-info-2 p {
+    padding-right: 0;
+  }
+
+  .about-info-2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .copyright p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .copyright,
+  .social-media {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .footer .row {
+    padding: 5% 15% 0% 15%;
+  }
+  .footer-logo {
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .footer h4 {
+    margin-bottom: 20px;
+  }
+
+  .footer h4 {
+    font-size: 1rem;
+  }
+
+  .footer p {
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+  }
+
+  .copyright,
+  .social-media {
+    text-align: center;
+  }
+
+  .copyright {
+    margin-bottom: 0px;
+  }
+
+  .social-media {
+    margin-top: 15px;
+  }
+
+  .footer p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .header-info {
+    padding: 5% 10%;
+    text-align: center;
+  }
+
+  .header .right-side h1 {
+    font-size: 1.8rem !important;
+    text-align: center;
+  }
+
+  .header .right-side h1 br {
+    display: none;
+  }
+
+  .header .right-side h6 {
+    font-size: 0.8rem !important;
+    text-align: center;
+  }
+
+  .header .right-side h4 {
+    font-size: 1.2rem !important;
+    text-align: center;
+  }
+
+  .header .right-side p {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
+  .personal #quotes {
+    padding: 15% 20% 11% 15%;
+  }
+
+  #personal-info {
+    padding: 5% 15%;
+    text-align: center;
+  }
+
+  #personal-info h1 {
+    font-size: 1.2rem;
+  }
+
+  .personal #quotes {
+    padding: 22% 20% 9% 15%;
+  }
+
+  .cv-table span {
+    font-size: 12px;
+  }
+
+  .cv-table td {
+    width: 50%;
+    padding: 5px 0px;
+  }
+
+  .for-mobile {
+    margin: 0 auto;
+  }
+
+  .for-mobile td {
+    width: 32%;
+    padding: 5px 20px;
+  }
+
+  .personal #quotes {
+    padding: 5% 20% 5% 15%;
+  }
+
+  #quotes h1 {
+    font-size: 1.2rem !important;
+  }
+
+  #portfolio-block {
+    padding-top: 1%;
+  }
+
+  #portfolio-block h1 {
+    font-size: 1.8rem;
+    margin: 20px 0 !important;
+  }
+
+  .skill-info-right-side {
+    padding: 17% 35% 15% 0;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .mt-4 {
+    margin-top: 0.5rem !important;
+  }
+
+  .what-do-best h1 {
+    font-size: 1.8rem;
+  }
+
+  .what-do-best {
+    padding: 11%;
+    height: 0;
+    display: table-cell;
+  }
+
+  .skill p {
+    line-height: 1.5rem !important;
+  }
+  .skill p {
+    padding-right: 7%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+
+  .skill-left-side {
+    display: none;
+  }
+
+  .skill-left-side-2 {
+    padding: 10% 0 10% 0;
+    padding-left: 0%;
+    display: flex;
+  }
+
+  .skill-info-right-side {
+    padding: 5% 10% 10% 10%;
+  }
+
+  .what-do-best-2 h1 {
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .what-do-best-2 {
+    padding: 11% 8%;
+    background-color: #9396a7;
+    display: table-cell;
+  }
+
+  .career-experience h1 {
+    font-size: 1.6rem;
+  }
+
+  .career-experience {
+    height: 250px;
+  }
+
+  .experience h3 {
+    font-size: 1rem;
+  }
+
+  .education h3 {
+    font-size: 1rem;
+  }
+
+  .education h5 {
+    font-size: 0.8rem;
+  }
+
+  .education .vertical-line {
+    height: 120px;
+  }
+
+  .vertical-line {
+    height: 140px;
+  }
+
+  .experience-left-side {
+    display: none;
+  }
+
+  .experience-left-side-2 {
+    display: flex;
+  }
+
+  .experience-left-side-2 {
+    padding: 10% 5% 5% 5%;
+  }
+
+  .career-experience-2 {
+    padding: 10% 16% 10% 12%;
+    background-color: #eeeeee;
+  }
+
+  .career-experience-2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .experience-right-side {
+    padding: 0% 10% 4% 10%;
+    text-align: center;
+  }
+
+  .experience .vertical-line {
+    height: 2px;
+  }
+
+  .experience .vertical-line {
+    border-left: 150px solid royalblue;
+    display: inline-block;
+  }
+
+  .experience p {
+    margin-bottom: 0px;
+  }
+
+  .float-right {
+    float: none !important;
+  }
+
+  .education .vertical-line {
+    height: 2px;
+  }
+
+  .education .vertical-line {
+    border-left: 150px solid royalblue;
+    display: inline-block;
+  }
+
+  .education .col-md-10 {
+    padding: 3%;
+    text-align: center;
+  }
+
+  .education .col-md-2 {
+    text-align: center;
+  }
+
+  .about-info {
+    padding: 8% 10%;
+    text-align: center;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.1rem !important;
+  }
+
+  .about-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-info h4 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-info .col-md-2 hr {
+    margin-top: 0.5rem;
+    width: 10%;
+    margin-bottom: 0;
+    height: 2px;
+  }
+
+  .about-info-2 {
+    padding: 0% 10% 5% 10%;
+    text-align: center;
+  }
+
+  .about-info-2 p {
+    padding-right: 0;
+  }
+
+  .about-info-2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .copyright p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .copyright,
+  .social-media {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .footer .row {
+    padding: 5% 15% 0% 15%;
+  }
+  .footer-logo {
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .footer h4 {
+    margin-bottom: 20px;
+  }
+
+  .footer h4 {
+    font-size: 1rem;
+  }
+
+  .footer p {
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+  }
+
+  .copyright,
+  .social-media {
+    text-align: center;
+  }
+
+  .copyright {
+    margin-bottom: 0px;
+  }
+
+  .social-media {
+    margin-top: 15px;
+  }
+
+  .footer p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .header-info {
+    padding: 15% 10%;
+  }
 }
